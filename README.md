@@ -9,8 +9,7 @@
 #### 界面设计（横屏 & 竖屏 ）
 
 - 计算器页面
-
-![竖屏](./calc/calc1.jpg)
+<a href="url"><img src="./calc/calc1.jpg" align="center" height="1380" width="666" >竖屏</a>
 ![横屏](./calc/calc2.jpg)
 按钮布局——GridLayout
 
