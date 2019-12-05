@@ -10,8 +10,10 @@
 
 - 计算器页面
 <br>
-<a href="url"><img src="./calc/calc1.jpg" align="center" height="720" width="347" >竖屏</a>
-![横屏](./calc/calc2.jpg)
+<a href="url"><img src="./calc/calc1.jpg" align="center" height="240" width="116" ></a>
+<br>
+<a href="url"><img src="./calc/calc2.jpg" align="center" height="240" width="116" ></a>
+<br>
 按钮布局——GridLayout
 
 ```
@@ -36,7 +38,9 @@
     <br>横跨几列 columnSpan
 
 - 单位转换
-![单位转换](./calc/calc3.jpg)
+<br>
+<a href="url"><img src="./calc/calc3.jpg" align="center" height="240" width="116" ></a>
+<br>
 > 采取AlertDialog.Builder的方式来选择转换的单位<br>
 > 用一个变量flag表示 选择的转换单位
 （0：不选择 1：长度换算； 2：面积换算；3: 体积转换 4：进制转换）
