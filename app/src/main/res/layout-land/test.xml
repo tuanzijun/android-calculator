@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/ex_input"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#6A6969"
+        android:text=""
+        android:textSize="40dp"
+        android:gravity="bottom|right" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="6"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="c"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="delete"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp"
+            android:layout_row="0"/>
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="7"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="8"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="9"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/ss"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="sin"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/a"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="("
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text=")"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/four"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="4"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="5"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="6"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/cc"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="cos"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/chu"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="/"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/cheng"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="*"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/one"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="1"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="2"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="3"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/result"
+
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="="
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="+"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/jian"
+            android:layout_width="112dp"
+            android:layout_height="60dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="-"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/zore"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="0"
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/point"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_backgroud"
+            android:text="."
+            android:textColor="@drawable/text_colour"
+            android:textSize="20dp" />
+
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个帮助文本："
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算器版本：1.0\n功能：整数计算，小数计算，连加，三角函数"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
