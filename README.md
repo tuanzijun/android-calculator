@@ -10,9 +10,9 @@
 
 - 计算器页面
 <br>
-<a href="url"><img src="./calc/calc1.jpg" align="center" height="240" width="116" ></a>
+<a href="url"><img src="./calc/calc1.jpg" align="center" height="340" width="164" ></a>
 <br>
-<a href="url"><img src="./calc/calc2.jpg" align="center" height="240" width="116" ></a>
+<a href="url"><img src="./calc/calc2.jpg" align="center" height="164" width="340" ></a>
 <br>
 按钮布局——GridLayout
 
@@ -39,7 +39,7 @@
 
 - 单位转换
 <br>
-<a href="url"><img src="./calc/calc3.jpg" align="center" height="240" width="116" ></a>
+<a href="url"><img src="./calc/calc3.jpg" align="center" height="340" width="164" ></a>
 <br>
 > 采取AlertDialog.Builder的方式来选择转换的单位<br>
 > 用一个变量flag表示 选择的转换单位
