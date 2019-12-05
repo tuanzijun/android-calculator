@@ -10,8 +10,8 @@
 
 - 计算器页面
 
-![竖屏](D:/picture/android/calc1.jpg)
-![横屏](D:/picture/android/calc2.jpg)
+![竖屏](./calc/calc1.jpg)
+![横屏](./calc/calc2.jpg)
 按钮布局——GridLayout
 
 ```
@@ -36,7 +36,7 @@
     <br>横跨几列 columnSpan
 
 - 单位转换
-![单位转换](D:/picture/android/calc3.jpg)
+![单位转换](./calc/calc3.jpg)
 > 采取AlertDialog.Builder的方式来选择转换的单位<br>
 > 用一个变量flag表示 选择的转换单位
 （0：不选择 1：长度换算； 2：面积换算；3: 体积转换 4：进制转换）
